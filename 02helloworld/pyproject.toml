@@ -1,0 +1,19 @@
+[project]
+name = "02helloworld"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "“fistasolutions”", email = "fistasolutions@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+]
+
+[project.scripts]
+02helloworld = "02helloworld:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
