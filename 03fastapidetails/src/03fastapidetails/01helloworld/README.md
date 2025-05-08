@@ -33,9 +33,9 @@ This creates a special door (endpoint) in our digital house:
 
 ## Try It Yourself! 🚀
 1. Make sure you have Python installed on your computer
-2. Install FastAPI and uvicorn using uv:
+2. Install FastAPI with all the standard tools using uv:
    ```
-   uv add fastapi uvicorn
+   uv add "fastapi[standard]"
    ```
 3. Save the code in a file named `01helloworld.py`
 4. Run the website using uv:
